@@ -6,8 +6,8 @@ pipeline
         stage('continuousDownload')
         {
             steps
-            {
-                git 'https://github.com/intelliqittrainings/maven.git'
+	    {
+                git 'https://github.com/chanduredde/Maven-1.git'
             }
         }
         stage('continuousBuild')
